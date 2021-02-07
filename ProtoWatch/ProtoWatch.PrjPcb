@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=4
+HierarchyMode=2
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
@@ -389,7 +389,7 @@ AnnotateScope=All
 AnnotateOrder=9
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -496,7 +496,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=OYQDKULT
 
 [Document28]
 DocumentPath=ProtoWatch_SchLib.SchLib
@@ -522,7 +522,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
