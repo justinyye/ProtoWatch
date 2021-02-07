@@ -537,7 +537,7 @@ UniqueID=BC0CE679-049C-4B69-94F9-44606582BF8E
 Description=Build_Alt
 AllowFabrication=0
 ParameterCount=0
-VariationCount=14
+VariationCount=16
 Variation1=Designator=TP1|UniqueId=\NJVBXXVZ|Kind=1|AlternatePart= 
 Variation2=Designator=TP3|UniqueId=\MFGVQVPB|Kind=1|AlternatePart= 
 Variation3=Designator=TP2|UniqueId=\CTJKUFZO|Kind=1|AlternatePart= 
@@ -552,6 +552,8 @@ Variation11=Designator=TP8|UniqueId=\OSLTIIAV\CMNWXLMF|Kind=1|AlternatePart=
 Variation12=Designator=TP9|UniqueId=\OSLTIIAV\FGHRZLWI|Kind=1|AlternatePart= 
 Variation13=Designator=TP10|UniqueId=\OSLTIIAV\KPEGWKOG|Kind=1|AlternatePart= 
 Variation14=Designator=TP11|UniqueId=\OSLTIIAV\MOEIAXXC|Kind=1|AlternatePart= 
+Variation15=Designator=R28|UniqueId=\ZIJMIEDW\VOFQENHQ|Kind=1|AlternatePart= 
+Variation16=Designator=R30|UniqueId=\ZIJMIEDW\NAUDYFXL|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
