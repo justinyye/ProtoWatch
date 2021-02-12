@@ -539,6 +539,50 @@ Variation15=Designator=R28|UniqueId=\ZIJMIEDW\VOFQENHQ|Kind=1|AlternatePart=
 Variation16=Designator=R30|UniqueId=\ZIJMIEDW\NAUDYFXL|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[Parameter1]
+Name=ItemRevision
+Value=1.0
+
+[Parameter2]
+Name=Item
+Value=1.0
+
+[Parameter3]
+Name=VersionControl_ProjFolderRevNumber
+Value=1.0
+
+[Parameter4]
+Name=VersionControl_RevNumber
+Value=1.0
+
+[Parameter5]
+Name=SCH_SCALE
+Value=NA
+
+[Parameter6]
+Name=PCB_DWG_NO
+Value=TBD
+
+[Parameter7]
+Name=DOC_NO_SCH_DWG
+Value=TBD
+
+[Parameter8]
+Name=DOC_NO_FAB_DWG
+Value=TBD
+
+[Parameter9]
+Name=DOC_NO_BOM
+Value=ProtoWatch_BoM_v2.2
+
+[Parameter10]
+Name=DOC_NO_ASSY_DWG
+Value=TBD
+
+[Parameter11]
+Name=CAGE_CODE
+Value=TBD
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -552,7 +596,7 @@ ConfigurationType=Source
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=ProtelNetlist
 OutputName1=Protel
@@ -660,7 +704,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
