@@ -537,7 +537,7 @@ UniqueID=BC0CE679-049C-4B69-94F9-44606582BF8E
 Description=Build_Alt
 AllowFabrication=0
 ParameterCount=0
-VariationCount=16
+VariationCount=27
 Variation1=Designator=TP1|UniqueId=\NJVBXXVZ|Kind=1|AlternatePart= 
 Variation2=Designator=TP3|UniqueId=\MFGVQVPB|Kind=1|AlternatePart= 
 Variation3=Designator=TP2|UniqueId=\CTJKUFZO|Kind=1|AlternatePart= 
@@ -554,6 +554,17 @@ Variation13=Designator=TP10|UniqueId=\OSLTIIAV\KPEGWKOG|Kind=1|AlternatePart=
 Variation14=Designator=TP11|UniqueId=\OSLTIIAV\MOEIAXXC|Kind=1|AlternatePart= 
 Variation15=Designator=R28|UniqueId=\ZIJMIEDW\VOFQENHQ|Kind=1|AlternatePart= 
 Variation16=Designator=R30|UniqueId=\ZIJMIEDW\NAUDYFXL|Kind=1|AlternatePart= 
+Variation17=Designator=TP5|UniqueId=\VXGUUCTH|Kind=1|AlternatePart= 
+Variation18=Designator=TP22|UniqueId=\UKRPLXCJ|Kind=1|AlternatePart= 
+Variation19=Designator=TP12|UniqueId=\KABPZABH\QMDQUKEB|Kind=1|AlternatePart= 
+Variation20=Designator=TP13|UniqueId=\KABPZABH\WIZSCYYN|Kind=1|AlternatePart= 
+Variation21=Designator=TP14|UniqueId=\KABPZABH\UYORGEPY|Kind=1|AlternatePart= 
+Variation22=Designator=TP15|UniqueId=\KABPZABH\BMLFJXMJ|Kind=1|AlternatePart= 
+Variation23=Designator=TP16|UniqueId=\KABPZABH\AICWKVGQ|Kind=1|AlternatePart= 
+Variation24=Designator=TP17|UniqueId=\ZIJMIEDW\DUARXDAY|Kind=1|AlternatePart= 
+Variation25=Designator=TP19|UniqueId=\ZIJMIEDW\MDQSEZSG|Kind=1|AlternatePart= 
+Variation26=Designator=TP20|UniqueId=\ZIJMIEDW\FZSAYQDK|Kind=1|AlternatePart= 
+Variation27=Designator=TP21|UniqueId=\ZIJMIEDW\XIIWFMKG|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -725,7 +736,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-L2550DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
