@@ -49,8 +49,8 @@ AnnotateScope=All
 AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -100,8 +100,8 @@ AnnotateScope=All
 AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -117,8 +117,8 @@ AnnotateScope=All
 AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -134,8 +134,8 @@ AnnotateScope=All
 AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -151,8 +151,8 @@ AnnotateScope=All
 AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -491,8 +491,8 @@ AnnotateScope=All
 AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -508,8 +508,8 @@ AnnotateScope=All
 AnnotateOrder=11
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -567,61 +567,53 @@ Variation26=Designator=TP20|UniqueId=\ZIJMIEDW\FZSAYQDK|Kind=1|AlternatePart=
 Variation27=Designator=TP21|UniqueId=\ZIJMIEDW\XIIWFMKG|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for ProtoWatch\ProtoWatch_BoM_v1.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for ProtoWatch\ProtoWatch_BoM_v1_02_16_2021.xlsx
-DItemRevisionGUID=
-
 [Parameter1]
-Name=CAGE_CODE
-Value=TBD
+Name=VersionControl_ProjProjFolderRevNumber
+Value=VersionControl_Project
 
 [Parameter2]
-Name=Design_Item
-Value=1.0
-
-[Parameter3]
-Name=DOC_NO_ASSY_DWG
-Value=TBD
-
-[Parameter4]
-Name=DOC_NO_BOM
-Value=ProtoWatch_BoM_v2.2
-
-[Parameter5]
-Name=DOC_NO_FAB_DWG
-Value=TBD
-
-[Parameter6]
-Name=DOC_NO_SCH_DWG
-Value=TBD
-
-[Parameter7]
-Name=Item_Revision
-Value=1.0
-
-[Parameter8]
-Name=PCB_DWG_NO
-Value=TBD
-
-[Parameter9]
-Name=RevNumber
-Value=1.0
-
-[Parameter10]
-Name=SCH_SCALE
-Value=NA
-
-[Parameter11]
 Name=VersionControl_Project
 Value=1.0
 
+[Parameter3]
+Name=SCH_SCALE
+Value=NA
+
+[Parameter4]
+Name=RevNumber
+Value=1.0
+
+[Parameter5]
+Name=PCB_DWG_NO
+Value=TBD
+
+[Parameter6]
+Name=Item_Revision
+Value=1.0
+
+[Parameter7]
+Name=DOC_NO_SCH_DWG
+Value=TBD
+
+[Parameter8]
+Name=DOC_NO_FAB_DWG
+Value=TBD
+
+[Parameter9]
+Name=DOC_NO_BOM
+Value=ProtoWatch_BoM_v2.2
+
+[Parameter10]
+Name=DOC_NO_ASSY_DWG
+Value=TBD
+
+[Parameter11]
+Name=Design_Item
+Value=1.0
+
 [Parameter12]
-Name=VersionControl_ProjProjFolderRevNumber
-Value=VersionControl_Project
+Name=CAGE_CODE
+Value=TBD
 
 [Configuration1]
 Name=Sources
@@ -744,7 +736,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-L2550DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
