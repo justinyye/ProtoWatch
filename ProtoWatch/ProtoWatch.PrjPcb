@@ -570,6 +570,10 @@ Variation29=Designator=TP23|UniqueId=\KABPZABH\MSAVRABM|Kind=1|AlternatePart=
 Variation30=Designator=TP18|UniqueId=\KABPZABH\QQDOTNJW|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ProtoWatch\Design Rule Check - ProtoWatch.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=CAGE_CODE
 Value=TBD
@@ -739,7 +743,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-L2550DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
