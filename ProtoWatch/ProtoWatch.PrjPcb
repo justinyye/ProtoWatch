@@ -30,7 +30,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=
+OutputPath=Project Outputs for ProtoWatch
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -377,7 +377,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=KKIGBAYA
 
 [Document21]
 DocumentPath=Library\Components - 01.02.21 - 21.11.SchLib
@@ -532,6 +532,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CJCEJYIE
 
+[Document30]
+DocumentPath=StarterBoardJob.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=BC0CE679-049C-4B69-94F9-44606582BF8E
 Description=Build_Alt
@@ -571,56 +588,132 @@ Variation30=Designator=TP18|UniqueId=\KABPZABH\QQDOTNJW|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for ProtoWatch\BOM\Bill of Materials-ProtoWatch(Build_Alt).xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for ProtoWatch\Design Rule Check - ProtoWatch.html
 DItemRevisionGUID=
 
+[GeneratedDocument3]
+DocumentPath=Project Outputs for ProtoWatch\Pick Place\Pick Place for ProtoWatch(Build_Alt).txt
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for ProtoWatch\NC Drill\ProtoWatch.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for ProtoWatch\NC Drill\ProtoWatch.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.REP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for ProtoWatch\Gerber\ProtoWatch.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for ProtoWatch\NC Drill\ProtoWatch.TXT
+DItemRevisionGUID=
+
 [Parameter1]
-Name=CAGE_CODE
-Value=TBD
+Name=VersionControl_ProjProjFolderRevNumber
+Value=1.0
 
 [Parameter2]
-Name=Design_Item
-Value=1.0
-
-[Parameter3]
-Name=DOC_NO_ASSY_DWG
-Value=TBD
-
-[Parameter4]
-Name=DOC_NO_BOM
-Value=ProtoWatch_BoM_v2.2
-
-[Parameter5]
-Name=DOC_NO_FAB_DWG
-Value=TBD
-
-[Parameter6]
-Name=DOC_NO_SCH_DWG
-Value=TBD
-
-[Parameter7]
-Name=Item_Revision
-Value=1.0
-
-[Parameter8]
-Name=PCB_DWG_NO
-Value=TBD
-
-[Parameter9]
-Name=RevNumber
-Value=1.0
-
-[Parameter10]
-Name=SCH_SCALE
-Value=NA
-
-[Parameter11]
 Name=VersionControl_Project
 Value=1.0
 
+[Parameter3]
+Name=SCH_SCALE
+Value=NA
+
+[Parameter4]
+Name=RevNumber
+Value=1.0
+
+[Parameter5]
+Name=PCB_DWG_NO
+Value=TBD
+
+[Parameter6]
+Name=Item_Revision
+Value=1.0
+
+[Parameter7]
+Name=DOC_NO_SCH_DWG
+Value=TBD
+
+[Parameter8]
+Name=DOC_NO_FAB_DWG
+Value=TBD
+
+[Parameter9]
+Name=DOC_NO_BOM
+Value=ProtoWatch_BoM_v2.2
+
+[Parameter10]
+Name=DOC_NO_ASSY_DWG
+Value=TBD
+
+[Parameter11]
+Name=Design_Item
+Value=1.0
+
 [Parameter12]
-Name=VersionControl_ProjProjFolderRevNumber
-Value=VersionControl_Project
+Name=CAGE_CODE
+Value=TBD
 
 [Configuration1]
 Name=Sources
@@ -631,6 +724,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=Project Outputs for ProtoWatch
 
 [OutputGroup1]
 Name=Netlist Outputs
